@@ -1,0 +1,23 @@
+body{
+    background-color:#f1ebe2;
+}
+.der{
+    color: maroon;
+}
+.user{
+    color:chartreuse;
+}
+.utv{
+    color: red;
+}
+.navbar-expand-lg {
+    background-color: aquamarine;
+}
+.btn{
+    border: 5px solid red;
+    background-color:#564321;
+}
+.sas{
+    padding-left: 70px;
+}
+

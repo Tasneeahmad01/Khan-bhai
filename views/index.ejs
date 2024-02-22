@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Posts</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+   
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <hr/>
+    <h1 class="der">QUORA POST</h1>
+
+   <% for(post of posts){ %>
+    <br />
+    <a href="https://unsplash.com/s/photos/indonesia-landscape">
+    <img src="https://media.istockphoto.com/id/1395097961/photo/two-people-on-via-ferrata-climbing-up-summer-activities-concept.jpg?s=2048x2048&w=is&k=20&c=Wb0wdXAnB-zQpllLIKKmAbng9sWfWeRc_TVQ3hI6KbE=" alt="" style="display: inline; padding-left: 20px; border-radius: 1rem;" width="250px"></a>
+    <div class="user">
+        <h3>@ <%= post.username %></h3>
+        <h4 class="utv"> content :<%=post.content %></h4>
+        <button><a href="http://localhost:8080/posts/<%= post.id %>">Seen in details</a></button>
+        <button class="rat"><a href="http://localhost:8080/posts/<%= post.id %>/edit">Edit</a></button>
+    </div>
+    <%}%>
+    <br />
+    <button class="btn btn-dark"><a href="http://localhost:8080/posts/new">create new post</a></button>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem quis voluptatum adipisci autem sit odit ea? Iure ipsam voluptatibus labore, sed doloremque quam quos aspernatur exercitationem iste cumque quae praesentium.</p>
+</body>
+</html>
