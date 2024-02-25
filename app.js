@@ -77,25 +77,15 @@ app.delete("/listings/:id",async(req,res)=>{
     let { id } = req.params;
    let deletedListing =  await Listing.findByIdAndDelete(id);
    console.log(deletedListing);
-   res.redirect("/listings")
-})
+   res.redirect("/listings");
+});
 
 
 
-
-// app.get("/testListing",async (req,res)=>{
-//  let sampleListing = new Listing({
-//  title:" My new Villa ",
-//  description:"Your beach",
-//  price:12000,
-//  location:"Clangut, Goa",
-// country:"India",
-//  });
-//  await sampleListing.save();
-//  console.log("sample was saved")
-//  res.send("Water success")
-// });
 app.listen(3000,()=>{
 console.log("Your server fast port 3000");
 });
+
+
+
 

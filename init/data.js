@@ -329,6 +329,21 @@ const sampleListings = [
     location: "Costa Rica",
     country: "Costa Rica",
   },
+
+  {
+    title: "Secludeddd Beach House in Indonesia Lake",
+    description:
+      "Escape to a secluded beach house on the Pacific coast of Costa Rica. Surf, relax, and unwind.",
+    image: 
+    
+      "https://media.istockphoto.com/id/472831484/photo/mountain-range-in-komodo-national-park-in-indonesia.jpg?s=1024x1024&w=is&k=20&c=fXa1dIIC-u8TbiXMQYc9db-kBu7qInjldJMEaNmaCx0=",
+    
+    price: 2800,
+    location: "Costa Singapore",
+    country: "Maleshiya",
+  },
+
+
 ];
 
 module.exports = { data: sampleListings };
