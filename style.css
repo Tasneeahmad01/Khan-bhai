@@ -1,0 +1,139 @@
+body{
+    font-family: 'Poppins';
+    font-size: 25px;
+    border-color: #232323;
+    background-color:#e5edec;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.social_icon{
+  margin-left: 80%;
+  margin-bottom: 100px;
+}
+.poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: inherit;
+  }
+.card{
+    
+    width: 21rem;
+    border-radius: 1rem;
+    height:25rem;
+    padding: 10px;
+    overflow-y: auto;
+
+}
+.main{
+    display: flex;
+    gap: 20px;
+    padding: 1rem 0.5rem 0 1rem;
+    width: 100%;
+    flex-wrap: wrap;
+    
+}
+.wan{
+    width:20.25rem;
+    border-radius: 1rem;
+}
+.deer{
+    width: 100%;
+    height:10rem;
+    background-color: #f2f2a3;
+    font-size: 20px;
+}
+.as{
+    text-decoration: none;
+    padding: 15px;
+   margin-left:2rem;
+   color: #40b081;
+    
+}
+.as:hover{
+    color:brown;
+    background-color: none;
+    border: 2px solid #94cf14;
+    width:5px;
+    height:1px;
+}
+a{
+  margin-top:2rem ;  
+}
+.www{
+    justify-content: space-between;
+}
+.q2{
+    padding-left:15px;
+    padding-right: 15px;
+   
+}
+button{
+    margin:.25rem;  
+    padding: 0.25rem;
+    border: 1px solid blue;
+    background-color: #fff;
+}
+button:hover{
+ color: pink;
+ background-color: #fff;
+}
+.er{
+    padding-left:15px;
+    padding-right: 15px;
+   
+ }
+ #was{
+    
+    color: #5c5c5c;
+
+ }
+ .button {
+    cursor: pointer;
+    position: relative;
+    padding: 10px 24px;
+    font-size: 18px;
+    color: rgb(193, 163, 98);
+    border: 2px solid rgb(193, 163, 98);
+    border-radius: 34px;
+    background-color: transparent;
+    font-weight: 600;
+    transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+    overflow: hidden;
+  }
+  .icon{
+    display: flex;
+  }
+  
+  .button::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    border-radius: inherit;
+    scale: 0;
+    z-index: -1;
+    background-color: #a8d123;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+  
+  .button:hover::before {
+    scale: 3;
+  }
+  
+  .button:hover {
+    color: #212121;
+    scale: 1.1;
+    box-shadow: 0 0px 20px #e2eb2c66;
+  }
+  
+  .button:active {
+    scale: 1;
+  }
+  
+  
+  
