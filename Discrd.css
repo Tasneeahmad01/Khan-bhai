@@ -1,9 +1,11 @@
 *{
     background-color: aliceblue;
+    text-align: center;
     
 }
 .navbar{
     position: fixed;
+   
 }
 .container-fluid{
     font-size: 20px;
@@ -20,6 +22,12 @@
 .logos{
     color:#893ce8;
     padding: 0.25rem;
+
+}
+.logos:hover{
+    color: blue;
+    background-color: #9ef6dc;
+    border-radius: 20px;
 }
 h1{
     background-color: white;
@@ -51,3 +59,31 @@ h1{
     margin-right: auto;
     
 }
+p{
+  font-size: 20px;
+  font-family:'Courier New', Courier, monospace;
+}
+.set{
+        font-family: "Bungee Spice", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+.paragraph{
+   font-family:  "Abcgintonord 800", sans-serif;
+}
+.grow{
+    background-color: #f5e7e7;
+    width: 50%;
+}
+.button{
+    background-color: #5a5ae5;
+    color: white;
+    border-radius: 100px;
+    border: none;
+    width:20%;
+    height: 3rem;
+    font-weight: 500;
+    font-size: 20px;
+}
+

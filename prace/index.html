@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+ <style>
+     /* CSS for styling the chat interface */
+    
+    #chat-box {
+      width: 300px;
+      margin: 50px auto;
+      border: 4px solid #ccc;
+      border-radius: 5px;
+      overflow-y: scroll;
+      height: 300px;
+      padding: 10px;
+      color: #FC3274;
+      background-color: #f000;
+    }
+    #message-input {
+      width: 30%;
+      padding: 5px;
+      box-sizing: border-box;
+      margin-left: 20px;
+      border: 2px solid black;
+    }
+    #send-btn {
+      padding: 5px 10px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+<body>
+    <h1 style="text-align: center;">Practice js Chapter 5</h1>
+    <h1 id="thapa">Our Cources Pull out the Batches 
+        <hr>
+        <span><marquee behavior="20" direction="left" loop="" scrollamount="10" width="1000px">Slider Areas @gmail.</marquee></span>
+    </h1>
+    <p id="showClock"></p>
+    <h3>Enter your choise</h3>
+    <ul>
+        <li>Add</li>
+        <li>Sub</li>
+        <li>Mult</li>
+        <li>Divd</li>
+    </ul>
+    <br>
+    <form action="">
+        <input type="text" name="" id="choise" placeholder="Enter the text">
+        <button onclick="myfun()">CLICK</button>
+    </form>
+    <div id="divone">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit vero exercitationem praesentium molestiae quia odit corporis cupiditate aut reiciendis illum.
+        <button id="divone" onclick="mydone('divone')">Divone</button>
+    </div>
+    <input type="button" name="" onclick="myfunc()" value="Clik me">
+    <h1><span id="d">D: Document</span> <span id="o">O: Object</span> <span id="m">M: Modal</span></h1>
+    <h2>When a web page is loaded the browser creaters a Document object Modal of thr page.Acc. to w3c everything is a Nod
+    </h2>
+<input type="text"  id="reversTheName" onkeyup="reverseString()">
+<input type="text"  id="showData()">
+ 
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium similique voluptas inventore beatae, suscipit blanditiis officia consectetur nostrum laudantium est!</p>
+    <img src="https://camo.githubusercontent.com/13fe2d0a11b60e2b4cb0fd7bfffda5f6f2481c2fc0cfec95fad3082d2c8f394f/68747470733a2f2f7261776769742e636f6d2f73757065724b616c6f2f66726f6e74656e642d646576656c6f7065722d726f61646d61702f6d61737465722f726f61646d61702e737667" height="400" width="500" style="margin: auto; display: block;">
+    <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhWdk1p3NNf-ZHECo80dkEZa3wR2lnloXqSU3ZFDI9jg&s">Tasneem ahmed visiter</a>
+    <button>Subm</button>
+    <br>
+    <button onclick="twit()">Twitter Color</button>
+    <button onclick="face()">Facebook Color</button>
+    <button onclick="whatsapp()">Whatsapp Color</button>
+    <button onclick="yutube()">Yutube Color</button>
+    <br>
+    <div id="chat-box"></div>
+    <input type="text" id="message-input" placeholder="Type a message...">
+    <button id="send-btn">Send</button>
+<br>
+
+
+
+
+
+    <script src="index.js"></script>
+</html>

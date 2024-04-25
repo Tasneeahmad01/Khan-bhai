@@ -1,12 +1,12 @@
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 body{
-    background:url("https://png.pngtree.com/background/20230516/original/pngtree-city-with-buildings-over-a-cityscape-with-a-misty-view-picture-image_2602442.jpg") ;
+     /* background:url("https://images.saymedia-content.com/.image/c_limit%2Ccs_srgb%2Cq_auto:eco%2Cw_620/MTc0Mjg1OTc2NjU3NDcwOTcy/12th-birthday-wishes-what-to-write-in-a-12th-birthday-card.webp"); */
     background-size: cover;
     height: 100vh;
     background-position:center;
@@ -85,6 +85,7 @@ padding: 10px 15px;
 }
 header ul li a:hover{
     border-bottom: 2px solid cadetblue;
+    
 }
 header .menu{
     font-size: 2.5em;
@@ -130,3 +131,61 @@ header .menu{
 ul li{
     list-style: none;
 }
+h1{
+    margin-left: 10px;
+    color: #fca311;
+    font-size: 50px;
+}
+.dear{
+    display:inline-block;
+    border-radius: 50%;
+    width: 70px;
+}
+.p3{
+    display:inline-block ;
+    margin-bottom: 20px;
+}
+.h2{
+    color: #222222;
+    text-shadow: 2px 0 2px black;
+}
+.try{
+    display:flex;
+gap: 40px;
+text-align: center;
+}
+.try2{
+    display: flex;
+    gap: 20px;
+}
+ p{
+    color: #666666;
+}
+.h3{
+    color: #555555;
+    margin: 0px 0px 28px;
+}
+.snow{
+    display: inline-block;
+}
+.main{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-left: 10px;
+}
+.snow{
+    overflow-y:scroll;
+    gap: 30px;
+}
+.for{
+    text-decoration: none;
+    color: red;
+}
+.for:hover{
+    color: blue;
+    background-color:#555555;
+    width: 100%;
+    height: 100%;
+}
+
