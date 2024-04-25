@@ -5,11 +5,12 @@
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
-body{
+ body{
      /* background:url("https://images.saymedia-content.com/.image/c_limit%2Ccs_srgb%2Cq_auto:eco%2Cw_620/MTc0Mjg1OTc2NjU3NDcwOTcy/12th-birthday-wishes-what-to-write-in-a-12th-birthday-card.webp"); */
     background-size: cover;
     height: 100vh;
     background-position:center;
+    text-align: center;
 }
 header{
     width: 100%;
@@ -174,10 +175,7 @@ text-align: center;
     align-items: center;
     margin-left: 10px;
 }
-.snow{
-    overflow-y:scroll;
-    gap: 30px;
-}
+
 .for{
     text-decoration: none;
     color: red;
